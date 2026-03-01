@@ -5,10 +5,11 @@
       <div class="text">
         <h1>
           <!--<router-link to="/about">Hi, Iʼm Eva!</router-link>-->
-          <router-link to="">Hi, Iʼm Eva!</router-link>
+          <router-link to="#">Hi, Iʼm Eva!</router-link>
         </h1>
         <p>
-          Iʼm a UX Designer & Researcher based in Copenhagen, Denmark with experience in delivering end-to-end user experience design for software products. As a creative problem-solver with a passion for Design Thinking, I bring a unique blend of UX expertise and outside-the-box thinking to every project. Explore my portfolio to see how Iʼve transformed complex design challenges into intuitive, user-centered solutions.
+          I’m a UX Designer and Frontend Developer based in Copenhagen, Denmark. I design and build digital products with a strong focus on usability, accessibility, and technical feasibility.
+          With a background in Human-Computer Interaction and experience working closely with development teams, I combine user research and design thinking with hands-on frontend implementation. I enjoy translating complex problems into intuitive interfaces and bringing them to life in code.
         </p>
       </div>
 

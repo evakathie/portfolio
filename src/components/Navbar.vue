@@ -3,7 +3,7 @@
     <header class="col-left">
       <router-link to="/" class="navbar-header">
         <p class="title-navbar">Eva Katharina Wolf</p>
-        <p class="job-navbar">UX Designer & Researcher</p>
+        <p class="job-navbar">UX Designer & Front-end Developer</p>
       </router-link>
     </header>
 
