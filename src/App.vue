@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Contact from './components/Contact.vue'
-import Footer from './components/Footer.vue'
-import ToTopButton from './components/ToTopButton.vue'
+import Navbar from './components/layout/Navbar.vue'
+import Contact from './components/layout/Contact.vue'
+import Footer from './components/layout/Footer.vue'
+import ToTopButton from './components/layout/ToTopButton.vue'
 
 export default {
   components: {

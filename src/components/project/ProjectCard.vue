@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import ProjectFocus from '@/components/ProjectFocus.vue'
+import ProjectFocus from './ProjectFocus.vue'
 
 export default {
   name: 'ProjectCard',

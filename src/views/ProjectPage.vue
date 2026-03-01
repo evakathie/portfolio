@@ -83,10 +83,10 @@
       </div>
     </div>
 
-    <!-- Load Project Content -->
-    <!--<component :is="projectContentComponent" />-->
-
   </div>
+
+  <!-- Load Project Content -->
+  <component v-if="projectContentComponent" :is="projectContentComponent" />
 
   <div v-else class="wrapper">
     <h1>Project not found</h1>
@@ -94,8 +94,9 @@
 </template>
 
 <script>
+import { defineAsyncComponent } from 'vue'
 import { projects } from '@/data/projects'
-import ProjectFocus from '@/components/ProjectFocus.vue'
+import ProjectFocus from '@/components/project/ProjectFocus.vue'
 
 export default {
     name: 'ProjectDetail',
@@ -126,9 +127,17 @@ export default {
         return this.project.intro.split('\n').filter(p => p.trim())
     },
 
+
     projectContentComponent() {
-        const slug = this.$route.params.slug
-        return () => import(`@/projects/${slug}/Content.vue`)
+      const slug = this.$route.params.slug
+
+      const modules = import.meta.glob('/src/views/projects/*.vue')
+
+      const path = `/src/views/projects/${slug}.vue`
+
+      const importer = modules[path]
+
+      return importer ? defineAsyncComponent(importer) : null
     },
 
     competences() {

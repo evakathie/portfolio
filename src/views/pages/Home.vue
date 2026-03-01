@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ProjectList from '@/components/ProjectList.vue'
+import ProjectList from '@/components/project/ProjectList.vue'
 
 export default {
   name: 'Home',
@@ -32,6 +32,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-</style>

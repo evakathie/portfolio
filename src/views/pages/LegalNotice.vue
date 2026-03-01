@@ -46,15 +46,3 @@
 
     </div>
 </template>
-
-<script>
-import HighlightedArea from '@/components/HighlightedArea.vue'
-
-export default {
-  name: 'LegalNotice',
-
-  components: {
-    HighlightedArea,
-  },
-}
-</script>

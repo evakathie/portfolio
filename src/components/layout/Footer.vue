@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: 'Resume',
+    name: 'Footer',
 
     computed: {
         current_year() {
