@@ -10,6 +10,7 @@
     <nav class="col-right">
       <ul>
         <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/work">Work</router-link></li>
 
         <li>
           <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>

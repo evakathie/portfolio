@@ -88,9 +88,7 @@
   <!-- Load Project Content -->
   <component v-if="projectContentComponent" :is="projectContentComponent" />
 
-  <div v-else class="wrapper">
-    <h1>Project not found</h1>
-  </div>
+  
 </template>
 
 <script>

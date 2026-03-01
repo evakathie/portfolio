@@ -17,6 +17,12 @@
 
     <ProjectList :featuredOnly="true" />
 
+    <div class="align-center">
+        <router-link to="/work" class="button">
+            View more projects
+        </router-link>
+    </div>
+
   </div>
 </template>
 

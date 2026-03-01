@@ -111,4 +111,144 @@ export const projects = [
 
     featured: true,
   },
+  {
+    slug: 'jobindex-log-analysis',
+
+    title: 'Investigating the Search Behavior of Recruiters',
+    description:
+      'Performing a log analysis to investigate the search behavior of recruiters using the platform Jobindex.',
+
+    intro: `
+      Together with four fellow students, I performed a Log Analysis to investigate the search behavior of recruiters using the Danish platform Jobindex, as a semester project in my masterʼs degree at University of Aalborg. Using a donated dataset with real log data of search queries from recruiters working for Jobindex, we performed a log analysis to better understand the search behavior of recruiters.
+
+      Supervisor: Mesut Kaya
+    `,
+
+    image: '/images/jobindex-log-analysis/jobindex-log-analysis-header.png',
+    imgMobile: '/images/jobindex-log-analysis/jobindex-log-analysis.png',
+
+    focus: ['User Research', 'Data Science'],
+    domain: ['Web'],
+
+    competences: [
+      'Quantitative Research',
+      'Log Analysis',
+      'User Journey Mapping',
+      'Data Visualization'
+    ],
+
+    tools: ['R', 'R Studio'],
+
+    from: 'October 2023',
+    to: 'January 2024',
+
+    year: 2024,
+    month: 1,
+
+    featured: false,
+  },
+  {
+    slug: 'user-knowledge-base',
+
+    title: 'Creating a User Insights Knowledge Base',
+    description:
+      'Creating a User Insights Knowledge Base to keep track of research findings and better communication of user needs.',
+
+    intro: `
+      The User Insights Knowledge Base project tackles the challenges of limited user contact and knowledge sharing at Digitec GmbH. By using a Design Sprint-inspired workshop approach and creating a centralized database, my colleagues and I established a concept for data-driven decision-making and collaboration across departments. I was the project lead, but was supported by colleagues from the product team and the companyʼs other UX designer.
+    `,
+
+    image: '/images/user-knowledge-base/user-knowledge-base-header.png',
+    imgMobile: '/images/user-knowledge-base/user-knowledge-base.png',
+
+    focus: ['User Research', 'Product Management'],
+    domain: [],
+
+    competences: [
+      'Design Thinking', 
+      'Workshop Facilitation', 
+      'UX Design', 
+      'Stakeholder Management'
+    ],
+
+    tools: ['Atlassian Jira', 'Miro'],
+
+    from: 'August 2021',
+    to: 'June 2023',
+
+    year: 2023,
+    month: 6,
+
+    featured: false,
+  },
+  {
+    slug: 'd3-critical-states',
+
+    title: 'Improving Critical States User Flow',
+    description:
+      'Improving the usability of the important “Critical States” feature in the foreign exchange pricing software D3 Sheets by Digitec GmBH.',
+
+    intro: `
+      D3 Sheets is a pricing engine for foreign exchange trading by Digitec GmbH. I worked for several years as a product designer for Digitec and in this project we aimed to improve the usability of the handling of critical states. This is an essential feature for FX traders to monitor their live prices and to get notified about bad prices early on.
+    `,
+
+    image: '/images/d3-critical-states/d3-critical-states-header.png',
+    imgMobile: '/images/d3-critical-states/d3-critical-states.png',
+
+    focus: ['UX Design', 'UI Design'],
+    domain: ['Desktop'],
+
+    competences: [
+      'Design Thinking',
+      'Workshop Facilitation',
+      'User Journey Mapping', 
+      'UI Design'
+    ],
+
+    tools: ['Adobe XD', 'Miro'],
+
+    from: 'July 2020',
+    to: 'October 2020',
+
+    year: 2020,
+    month: 10,
+
+    featured: false,
+  },
+    {
+    slug: 'pattern-library',
+
+    title: 'Creating a Pattern Library',
+    description:
+      'Creating a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns.',
+    
+    intro: `
+      Creation of a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns.
+
+      Design Pattern = generalizable solution to repeatedly occurring (UX / design) problems.
+    `,
+
+    image: '/images/pattern-library/pattern-library-header.png',
+    imgMobile: '/images/pattern-library/pattern-library.png',
+
+    focus: ['UI Design'],
+    domain: ['Desktop'],
+
+    competences: [
+      'Concept',
+      'Design System', 
+      'Documentation'
+    ],
+
+    tools: ['Adobe XD', 'Atlassian Confluence'],
+
+    from: 'October 2018',
+    to: 'December 2018',
+
+    year: 2018,
+    month: 12,
+
+    featured: false,
+  },
+  
 ]
