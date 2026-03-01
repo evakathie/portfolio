@@ -4,8 +4,8 @@
       <div class="text">
           <h2 class="page-title">A little bit about myself</h2>
           <p>Iʼm Eva, a {{ age }} year old UX Designer and Front-end Developer from Germany. Iʼm a creative outside-the-box thinker and passionate for Design Thinking, living in the beautiful city of Copenhagen. I have a background in Human-Computer-Interaction (B.Sc. and M.Sc.) and gained professional experience as a Product Designer at a Fintech company and in UX Design and Change Management at Novo Nordisk. I believe in lifelong learning and love to improve myself and to dive into new challenges and opportunities.</p>
-          <p>Outside the office, I enjoy spending time in nature and being active with yoga, going to the gym and dancing. I am an environmentalist, enjoy meeting friends and learning Danish.</p>
-      </div>
+            <p>Outside the office, I enjoy spending time in nature and being active with yoga and going to the gym. I am a <router-link to="/play">published author and an amateur photographer</router-link> and enjoy pottery and painting.</p>
+        </div>
       <img :src="'/images/about/eva-katharina-wolf-02.jpg'" alt="Professional job application photo: Eva stands in front of an office building in a blazer and white turtleneck shirt and smiles.">
   </div>
 

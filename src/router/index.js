@@ -3,6 +3,7 @@ import Home from '@/views/pages/Home.vue'
 import LegalNotice from '@/views/pages/LegalNotice.vue'
 import About from '@/views/pages/About.vue'
 import Work from '@/views/pages/Work.vue'
+import Play from '@/views/pages/Play.vue'
 import ProjectPage from '@/views/ProjectPage.vue'
 
 const routes = [
@@ -19,9 +20,13 @@ const routes = [
     path: '/about',
     component: About,
   },
-      {
+  {
     path: '/work',
     component: Work,
+  },
+  {
+    path: '/play',
+    component: Play,
   },
   {
     path: '/projects/:slug',
