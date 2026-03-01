@@ -1,0 +1,21 @@
+$colors: (
+  white: #fff,
+  black_15: #D9D9D9,
+  black_25: #BFBFBF,
+  black_50: #808080,
+  black_80: #333333,
+  black: #000000,
+  color_lightest: #DFE6EB,
+  color_light: #819DB1,
+  color: #56758B,
+  color_dark: #3A505F,
+  color_hover: #B7C4D0
+);
+
+@function color($name) {
+  @if map-has-key($colors, $name) {
+    @return map-get($colors, $name);
+  } @else {
+    @warn "Undefined color: #{$name}";
+  }
+}
