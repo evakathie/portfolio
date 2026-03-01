@@ -4,8 +4,7 @@
     <div class="page-header">
       <div class="text">
         <h1>
-          <!--<router-link to="/about">Hi, Iʼm Eva!</router-link>-->
-          <router-link to="#">Hi, Iʼm Eva!</router-link>
+          <router-link to="/about">Hi, Iʼm Eva!</router-link>
         </h1>
         <p>
           I’m a UX Designer and Frontend Developer based in Copenhagen, Denmark. I design and build digital products with a strong focus on usability, accessibility, and technical feasibility.
