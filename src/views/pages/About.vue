@@ -93,12 +93,12 @@
 
           <div class="resume-element">
             <div class="time">
-              <p class="to">since</p>
+              <p class="to">01/2026</p>
               <p class="from">09/2025</p>
             </div>
             <div class="station">
               <p class="role">Digital Transformation Partner</p>
-              <p class="company">{{ duration(2025, 9) }} | Novo Nordisk A/S, Copenhagen (DK)</p>
+              <p class="company">{{ duration(2025, 9, 2026, 1) }} | Novo Nordisk A/S, Copenhagen (DK)</p>
             </div>
           </div>
 

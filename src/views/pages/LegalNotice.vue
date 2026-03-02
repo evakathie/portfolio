@@ -9,7 +9,7 @@
     <HighlightedArea>
         <h2 class="highlighted-title">Information according to &sect; 5 TMG</h2>
         <p>Eva Katharina Wolf<br />
-        Birketinget 6A.2.209<br />
+        Njalsgade 151<br />
         2300 København</p>
 
         <h2 class="highlighted-title" style="padding-top: 48px;">Contact</h2>
