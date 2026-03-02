@@ -15,7 +15,7 @@ export const projects = [
     image: '/images/planeatary/planeatary-header.png',
     imgMobile: '/images/planeatary/planeatary.png',
 
-    focus: ['UX Design', 'Frontend Development'],
+    focus: ['UX Design', 'Front-end Development'],
     domain: ['Mobile'],
 
     competences: [
@@ -247,6 +247,41 @@ export const projects = [
 
     year: 2018,
     month: 12,
+
+    featured: false,
+  },
+     {
+    slug: 'portfolio',
+
+    title: 'Component-Driven Portfolio Website',
+    description:
+        'Migration from a legacy VuePress setup to a modern Vue 3 architecture with dynamic routing and a modular content system.',
+    
+        intro: `
+        This project began as a migration from a legacy VuePress-based portfolio to a fully custom Vue 3 application. The previous setup limited flexibility, routing control, and long-term scalability. I redesigned the architecture to separate data, layout, and content, enabling dynamic project routing, and modular content components. The result is a lightweight, maintainable single-page application built with Vue 3 and Vite, deployed as a static build and structured for future expansion.
+    `,
+
+    image: '',
+    imgMobile: '/images/portfolio/portfolio.png',
+
+    focus: ['Front-end Development'],
+    domain: ['Web'],
+
+    competences: [
+      'JavaScript (ES6+)',
+      'Vue 3 & Vite',
+      'Component Architecture',
+      'Responsive Layout Design',
+      'Dynamic Routing'
+    ],
+
+    tools: ['Visual Studio Code', 'GitHub', 'Console'],
+
+    from: 'February 2026',
+    to: 'March 2026',
+
+    year: 2026,
+    month: 3,
 
     featured: false,
   },
