@@ -1,7 +1,6 @@
 $fonts: (
   calibri: #{ Calibri, sans-serif },
-  roboto: Roboto,
-  muli: Muli,
+  roboto: #{ Roboto, sans-serif },
 );
 
 @function font($name) {
