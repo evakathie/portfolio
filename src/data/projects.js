@@ -109,7 +109,7 @@ export const projects = [
     year: 2020,
     month: 9,
 
-    featured: true,
+    featured: false,
   },
   {
     slug: 'jobindex-log-analysis',
@@ -302,7 +302,7 @@ export const projects = [
     imgMobile: '/images/master-thesis/master-thesis.png',
 
     focus: ['User Research', 'UX Design'],
-    domain: ['App'],
+    domain: ['Mobile'],
 
     competences: [
       'Log Data Analysis',
@@ -320,6 +320,6 @@ export const projects = [
     year: 2025,
     month: 8,
 
-    featured: false,
+    featured: true,
   },
 ]
