@@ -250,7 +250,7 @@ export const projects = [
 
     featured: false,
   },
-     {
+  {
     slug: 'portfolio',
 
     title: 'Component-Driven Portfolio Website',
@@ -285,5 +285,41 @@ export const projects = [
 
     featured: false,
   },
-  
+  {
+    slug: 'master-thesis',
+
+    title: 'Redesigning the Novo Nordisk App Digital Checklist',
+    description:
+        'Redesigning the task completion feature of Digital Checklist in a human-centred design approach to enhancing usability for factory operators.',
+    
+    intro: `
+        Digital Checklist supports Novo Nordisk factory operators in complex, time-sensitive production workflows. As part of my master’s thesis, I analysed user data, examined usage patterns in a real-world factory setting through contextual inquiry, and designed and evaluated five high-fidelity prototypes.
+
+        The redesign aimed to improve usability and reduce cognitive load for operators, contributing to more efficient and reliable task execution.
+      `,
+
+    image: '',
+    imgMobile: '/images/master-thesis/master-thesis.png',
+
+    focus: ['User Research', 'UX Design'],
+    domain: ['App'],
+
+    competences: [
+      'Log Data Analysis',
+      'Contextual Inquiry',
+      'Usability Testing',
+      'Prototyping',
+      'Stakeholder Management'
+    ],
+
+    tools: ['Figma', 'Dovetail', 'R Studio', 'R'],
+
+    from: 'February 2025',
+    to: 'August 2025',
+
+    year: 2025,
+    month: 8,
+
+    featured: false,
+  },
 ]
