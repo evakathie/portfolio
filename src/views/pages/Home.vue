@@ -7,7 +7,7 @@
           <router-link to="/about">Hi, Iʼm Eva!</router-link>
         </h1>
         <p>
-          I’m a UX Designer and Frontend Developer based in Copenhagen, Denmark. I design and build digital products with a strong focus on usability, accessibility, and technical feasibility.
+          I’m a UX Designer and Front-end Developer based in Copenhagen, Denmark. I design and build digital products with a strong focus on usability, accessibility, and technical feasibility.
           With a background in Human-Computer Interaction and experience working closely with development teams, I combine user research and design thinking with hands-on frontend implementation. I enjoy translating complex problems into intuitive interfaces and bringing them to life in code.
         </p>
       </div>
