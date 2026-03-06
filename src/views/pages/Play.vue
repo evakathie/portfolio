@@ -39,35 +39,33 @@
         <p>In 2013 I bought my first SLR camera, when I was 16 years old, and that started a long-lasting hobby. Since then, Iʼve outgrown the beginnerʼs camera and eventually swapped the mirror for a system camera. As well as experimenting with analog and polaroid cameras. I also looked into many fields of photography: People, Macro, Landscapes, Nature and Products. Next to photography I taught myself image editing with Adobe Photoshop and Lightroom.</p>
 </div>
 
-  <div class="photographs" alt="29 photographs from the previously mentioned areas.">
-      <div class="images-container" v-for="src in img_srcs">
-          <img :src="src" alt="">
-      </div>
+  <div class="photographs" alt="Photographs from the previously mentioned areas.">
+      <div class="images-container" v-for="src in img_srcs" :key="src">
+        <img :src="src" alt="">
+        </div>
   </div>
 
 </template>
 
 <script>
+
+const images = import.meta.glob('../../assets/photographs/*.jpeg', {
+  eager: true,
+  as: 'url'
+});
+
+const img_srcs = Object.entries(images)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, url]) => url);
+
 export default {
-  name: 'Photographs',
+    name: 'Photographs',
 
-  computed: {
-      img_srcs() {
-          const img_srcs = [];
-          let number_of_images = 29;
-
-          for (let i = 1; i <= number_of_images; i++) {
-              if(i < 10 ) {
-                  img_srcs.push("/images/play/photographs/photography-0" + i + ".jpeg");
-              } else {
-                  img_srcs.push("/images/play/photographs/photography-" + i + ".jpeg");
-              }
-          }
-
-          return img_srcs;
-    }
-  },
-
+    data() {
+        return {
+            img_srcs
+        }
+    },
 }
 </script>
 
