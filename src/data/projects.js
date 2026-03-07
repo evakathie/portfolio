@@ -72,6 +72,7 @@ export const projects = [
     month: 6,
 
     featured: true,
+    company: 'aalborg-university',
   },
   {
     slug: 'cookie-notices',
@@ -110,6 +111,7 @@ export const projects = [
     month: 9,
 
     featured: false,
+    company: 'hamburg-university',
   },
   {
     slug: 'jobindex-log-analysis',
@@ -146,6 +148,7 @@ export const projects = [
     month: 1,
 
     featured: false,
+    company: 'aalborg-university',
   },
   {
     slug: 'user-knowledge-base',
@@ -180,6 +183,7 @@ export const projects = [
     month: 6,
 
     featured: false,
+    company: 'digitec',
   },
   {
     slug: 'd3-critical-states',
@@ -214,8 +218,9 @@ export const projects = [
     month: 10,
 
     featured: false,
+    company: 'digitec',
   },
-    {
+  {
     slug: 'pattern-library',
 
     title: 'Creating a Pattern Library',
@@ -249,6 +254,7 @@ export const projects = [
     month: 12,
 
     featured: false,
+    company: 'digitec',
   },
   {
     slug: 'portfolio',
@@ -321,5 +327,6 @@ export const projects = [
     month: 8,
 
     featured: true,
+    company: 'novo-nordisk',
   },
 ]

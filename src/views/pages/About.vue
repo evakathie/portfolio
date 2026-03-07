@@ -19,7 +19,7 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">M.Sc. Information Science (Human Centered Informatics)</p>
-                            <p class="company">University of Aalborg</p>
+                            <p class="company"><router-link to="/company/aalborg-university">University of Aalborg</router-link></p>
                         </div>
                         <div class="time">
                             <p class="to">08/2025</p>
@@ -30,7 +30,7 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Masterʼs program in Information Science</p>
-                            <p class="company">University of Aalborg, Copenhagen (DK) | {{ duration(2023, 9, 2025, 8) }}</p>
+                            <p class="company"><router-link to="/company/aalborg-university">University of Aalborg</router-link>, Copenhagen (DK) | {{ duration(2023, 9, 2025, 8) }}</p>
                         </div>
                         <div class="time">
                             <p class="to">08/2025</p>
@@ -50,7 +50,7 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Mentee in a mentoring program for female junior executives</p>
-                            <p class="company">UHH Career Center, Hamburg (DE) | {{ duration(2020, 11, 2021, 12) }}</p>
+                            <p class="company"><router-link to="/company/hamburg-university">UHH</router-link> Career Center, Hamburg (DE) | {{ duration(2020, 11, 2021, 12) }}</p>
                         </div>
                         <div class="time">
                             <p class="to">12/2021</p>
@@ -60,7 +60,7 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">B.Sc. Human-Computer Interaction</p>
-                            <p class="company">University of Hamburg</p>
+                            <p class="company"><router-link to="/company/hamburg-university">University of Hamburg</router-link></p>
                         </div>
                         <div class="time">
                             <p class="to">09/2020</p>
@@ -71,7 +71,7 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Bachelorʼs program in Human-Computer Interaction</p>
-                            <p class="company">University of Hamburg, Hamburg (DE) | {{ duration(2015, 10, 2020, 9) }}</p>
+                            <p class="company"><router-link to="/company/hamburg-university">University of Hamburg</router-link>, Hamburg (DE) | {{ duration(2015, 10, 2020, 9) }}</p>
                         </div>
                         <div class="time">
                             <p class="to">09/2020</p>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Digital Transformation Partner</p>
-                            <p class="company"> {{ duration(2025, 9) }} | Novo Nordisk A/S, Copenhagen (DK)</p>
+                            <p class="company"> {{ duration(2025, 9) }} | <router-link to="/company/novo-nordisk">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -117,7 +117,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Master Thesis Student</p>
-                            <p class="company"> {{ duration(2025, 2, 2025, 8) }} | Novo Nordisk A/S, Copenhagen (DK)</p>
+                            <p class="company"> {{ duration(2025, 2, 2025, 8) }} | <router-link to="/company/novo-nordisk">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -127,7 +127,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Student Assistant<br/>UX Design &amp; Research</p>
-                            <p class="company"> {{ duration(2023, 12, 2025, 8) }} | Novo Nordisk A/S, Copenhagen (DK)</p>
+                            <p class="company"> {{ duration(2023, 12, 2025, 8) }} | <router-link to="/company/novo-nordisk">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -137,7 +137,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Internship in my own Startup</p>
-                            <p class="company"> {{ duration(2024, 9, 2024, 12) }} | AAU Startup program, Copenhagen (DK)</p>
+                            <p class="company"> {{ duration(2024, 9, 2024, 12) }} | <router-link to="/company/aalborg-university">AAU</router-link> Startup program, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element-empty"></div>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Product Designer</p>
-                            <p class="company"> {{ duration(2020, 10, 2023, 6) }} | Digitec GmbH, Hamburg (DE)</p>
+                            <p class="company"> {{ duration(2020, 10, 2023, 6) }} | <router-link to="/company/digitec">Digitec GmbH</router-link>, Hamburg (DE)</p>
                         </div>
                     </div>
                     <div class="resume-element-empty-small"></div>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Student Assistant<br/>User Experience Design</p>
-                            <p class="company"> {{ duration(2019, 2, 2020, 9) }} | Digitec GmbH, Hamburg (DE)</p>
+                            <p class="company"> {{ duration(2019, 2, 2020, 9) }} | <router-link to="/company/digitec">Digitec GmbH</router-link>, Hamburg (DE)</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -170,7 +170,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Internship<br/>User Experience Design</p>
-                            <p class="company"> {{ duration(2018, 10, 2018, 12) }} | Digitec GmbH, Hamburg (DE)</p>
+                            <p class="company"> {{ duration(2018, 10, 2018, 12) }} | <router-link to="/company/digitec">Digitec GmbH</router-link>, Hamburg (DE)</p>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import About from '@/views/pages/About.vue'
 import Work from '@/views/pages/Work.vue'
 import Play from '@/views/pages/Play.vue'
 import ProjectPage from '@/views/ProjectPage.vue'
+import CompanyPage from '@/views/CompanyPage.vue'
 import NotFound from '@/views/pages/NotFound.vue'
 
 const routes = [
@@ -33,6 +34,11 @@ const routes = [
     path: '/projects/:slug',
     name: 'Project',
     component: ProjectPage,
+  },
+  {
+    path: '/company/:slug',
+    name: 'Company',
+    component: CompanyPage,
   },
   {
     path: '/:pathMatch(.*)*',
