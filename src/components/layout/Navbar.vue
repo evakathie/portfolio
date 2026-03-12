@@ -17,7 +17,7 @@
           <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/eva-katharina-wolf-420b9a182/" target="_blank">
+          <a href="https://www.linkedin.com/in/evawolf/" target="_blank">
             LinkedIn
           </a>
         </li>
@@ -37,11 +37,14 @@
       </nav>
 
       <ul :class="{ hide: !isOpen }">
+        <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/work">Work</router-link></li>
+        <li><router-link to="/play">Play</router-link></li>
         <li>
           <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/eva-katharina-wolf-420b9a182/" target="_blank">
+          <a href="https://www.linkedin.com/in/evawolf/" target="_blank">
             LinkedIn
           </a>
         </li>
