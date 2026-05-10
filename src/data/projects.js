@@ -71,7 +71,7 @@ export const projects = [
     year: 2024,
     month: 6,
 
-    featured: true,
+    featured: false,
     company: 'aalborg-university',
   },
   {
@@ -168,9 +168,9 @@ export const projects = [
     domain: [],
 
     competences: [
-      'Design Thinking', 
-      'Workshop Facilitation', 
-      'UX Design', 
+      'Design Thinking',
+      'Workshop Facilitation',
+      'UX Design',
       'Stakeholder Management'
     ],
 
@@ -205,7 +205,7 @@ export const projects = [
     competences: [
       'Design Thinking',
       'Workshop Facilitation',
-      'User Journey Mapping', 
+      'User Journey Mapping',
       'UI Design'
     ],
 
@@ -217,7 +217,7 @@ export const projects = [
     year: 2020,
     month: 10,
 
-    featured: false,
+    featured: true,
     company: 'digitec',
   },
   {
@@ -226,7 +226,7 @@ export const projects = [
     title: 'Creating a Pattern Library',
     description:
       'Creating a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns.',
-    
+
     intro: `
       Creation of a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns.
 
@@ -241,7 +241,7 @@ export const projects = [
 
     competences: [
       'Concept',
-      'Design System', 
+      'Design System',
       'Documentation'
     ],
 
@@ -256,13 +256,13 @@ export const projects = [
     featured: false,
     company: 'digitec',
   },
-  {
+  /*{
     slug: 'portfolio',
 
     title: 'Component-Driven Portfolio Website',
     description:
         'Migration from a legacy VuePress setup to a modern Vue 3 architecture with dynamic routing and a modular content system.',
-    
+
         intro: `
         This project began as a migration from a legacy VuePress-based portfolio to a fully custom Vue 3 application. The previous setup limited flexibility, routing control, and long-term scalability. I redesigned the architecture to separate data, layout, and content, enabling dynamic project routing, and modular content components. The result is a lightweight, maintainable single-page application built with Vue 3 and Vite, deployed as a static build and structured for future expansion.
     `,
@@ -290,14 +290,14 @@ export const projects = [
     month: 3,
 
     featured: false,
-  },
+},*/
   {
     slug: 'master-thesis',
 
     title: 'Redesigning the Novo Nordisk App Digital Checklist',
     description:
         'Redesigning the task completion feature of Digital Checklist in a human-centred design approach to enhancing usability for factory operators.',
-    
+
     intro: `
         Digital Checklist supports Novo Nordisk factory operators in complex, time-sensitive production workflows. As part of my master’s thesis, I analysed user data, examined usage patterns in a real-world factory setting through contextual inquiry, and designed and evaluated five high-fidelity prototypes.
 
