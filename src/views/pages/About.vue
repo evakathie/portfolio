@@ -19,17 +19,6 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">M.Sc. Information Science (Human Centered Informatics)</p>
-                            <p class="company"><router-link to="/company/aalborg-university">University of Aalborg</router-link></p>
-                        </div>
-                        <div class="time">
-                            <p class="to">08/2025</p>
-                        </div>
-                    </div>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty-small"></div>
-                    <div class="resume-element resume-left">
-                        <div class="station">
-                            <p class="role">Masterʼs program in Information Science</p>
                             <p class="company"><router-link to="/company/aalborg-university">University of Aalborg</router-link>, Copenhagen (DK) | {{ duration(2023, 9, 2025, 8) }}</p>
                         </div>
                         <div class="time">
@@ -37,6 +26,8 @@
                             <p class="from">09/2023</p>
                         </div>
                     </div>
+                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Continuous training in UX Design</p>
@@ -60,17 +51,6 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">B.Sc. Human-Computer Interaction</p>
-                            <p class="company"><router-link to="/company/hamburg-university">University of Hamburg</router-link></p>
-                        </div>
-                        <div class="time">
-                            <p class="to">09/2020</p>
-                        </div>
-                    </div>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element resume-left">
-                        <div class="station">
-                            <p class="role">Bachelorʼs program in Human-Computer Interaction</p>
                             <p class="company"><router-link to="/company/hamburg-university">University of Hamburg</router-link>, Hamburg (DE) | {{ duration(2015, 10, 2020, 9) }}</p>
                         </div>
                         <div class="time">
@@ -78,9 +58,11 @@
                             <p class="from">10/2015</p>
                         </div>
                     </div>
+                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">English language course, completed with language level C2</p>
+                            <p class="role">English language course (level C2)</p>
                             <p class="company">EF Education First, Capetown (ZA) | {{ duration(2015, 7, 2015, 9) }}</p>
                         </div>
                         <div class="time">
