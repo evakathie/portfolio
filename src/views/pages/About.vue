@@ -3,8 +3,8 @@
       <h1 style="display: none;">About Me: Eva Katharina Wolf</h1>
       <div class="text">
           <h2 class="page-title">A little bit about myself</h2>
-          <p>Iʼm Eva, a {{ age }} year old UX Designer and Front-end Developer from Germany. Iʼm a creative outside-the-box thinker and passionate for Design Thinking, living in the beautiful city of Copenhagen. I have a background in Human-Computer-Interaction (B.Sc. and M.Sc.) and gained professional experience as a Product Designer at a Fintech company and in UX Design and Change Management at Novo Nordisk. I believe in lifelong learning and love to improve myself and to dive into new challenges and opportunities.</p>
-            <p>Outside the office, I enjoy spending time in nature and being active with yoga and going to the gym. I am a <router-link to="/play">published author and an amateur photographer</router-link> and enjoy pottery and painting.</p>
+          <p>Iʼm Eva, a {{ age }} year old Product Designer from Germany, living in Copenhagen. I have 5+ years of experience as a Product Designer, designing complex Saas software. I am passionate about discovering user needs and translating complex workflows into intuitive interfaces, making a difference in the users everyday life and work. I work with a structured Design Thinking process to explore the problem and solution space, applying qualitative and quantitative user research methods, persona creation and user journey mapping, and low- to high-fidelity prototyping. I collaborate closely with developers and product managers to deliver scalable, production-ready solutions.</p>
+          <p>Outside of work, I am passionate about sustainability and my creative hobbies, including photography and painting. I'm a curious person, believing in lifelong learning and personal as well as professional growth.</p>
         </div>
       <img :src="'/images/about/eva-katharina-wolf-02.jpg'" alt="Professional job application photo: Eva stands in front of an office building in a blazer and white turtleneck shirt and smiles.">
   </div>
@@ -102,12 +102,12 @@
                     <h3 class="highlighted-title timeline-right-title">Experience</h3>
                     <div class="resume-element">
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">01/2026</p>
                             <p class="from">09/2025</p>
                         </div>
                         <div class="station">
                             <p class="role">Digital Transformation Partner</p>
-                            <p class="company"> {{ duration(2025, 9) }} | <router-link to="/company/novo-nordisk">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                            <p class="company"> {{ duration(2025, 9, 2026, 1) }} | <router-link to="/company/novo-nordisk">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -204,18 +204,18 @@
                     <div class="col-right">
                         <h3 class="highlighted-title">Tools</h3>
                         <ul>
-                            <li>Prototyping: Figma | Adobe XD | Sketch</li>
+                            <li>Prototyping: Figma</li>
                             <li>Wireframing: Balsamiq</li>
                             <li>User Research: Dovetail | Maze | Loop11</li>
                             <li>Product Management: Atlassian Jira &amp; Confluence</li>
                             <li>Collaboration: Miro | FigJam | Microsoft Teams</li>
-                            <li>GenAI: ChatGPT</li>
+                            <li>GenAI: ChatGPT | Claude Design</li>
                         </ul>
                         <h3 class="highlighted-title">Languages</h3>
                         <ul>
                             <li>German (native speaker)</li>
                             <li>English (C2 - full professional proficiency)</li>
-                            <li>Danish (A2 - beginner)</li>
+                            <li>Danish (B1 - intermediate)</li>
                         </ul>
                     </div>
                 </div>

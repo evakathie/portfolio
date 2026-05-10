@@ -7,8 +7,9 @@
           <router-link to="/about">Hi, Iʼm Eva!</router-link>
         </h1>
         <p>
-          I’m a UX Designer and Front-end Developer based in Copenhagen, Denmark. I design and build digital products with a strong focus on usability, accessibility, and technical feasibility.
-          With a background in Human-Computer Interaction and experience working closely with development teams, I combine user research and design thinking with hands-on frontend implementation. I enjoy translating complex problems into intuitive interfaces and bringing them to life in code.
+            I work at the intersection of user experience, product thinking, and technology, with a background in Human-Computer Interaction (MSc &amp; BSc). I’m passionate about translating complex workflows and user needs into intuitive interfaces, and how ideas move from understanding user needs, business requirements, and technical constraints to shaping and building digital products.
+
+            My experience spans product design and user research in complex, domain-heavy products such as fintech and pharmaceuticals manufacturing.
         </p>
       </div>
 
